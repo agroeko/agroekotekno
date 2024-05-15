@@ -5,163 +5,126 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AgroEkoTekno WEB</title>
     <style>
-           *{
-    padding: 0;
-    margin: 0;
-    overflow-x: hidden;
-}
+        * {
+            padding: 0;
+            margin: 0;
+            overflow-x: hidden;
+        }
 
+        .content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 100%;
+            background-color: #489F78;
+            min-height: 100vh;
+            padding-bottom: 50px;
+            padding-top: 30px;
+        }
 
-.content{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+        .nav a {
+            text-decoration: none;
+        }
 
-.nav a{
-    text-decoration: none;
-}
+        .nav {
+            display: flex;
+            padding: 8px;
+            font-size: 1.5rem;
+            position: absolute;
+            top: 0;
+            color: white;
+            justify-content: space-evenly;
+            left: 0;
+            width: 100%;
+        }
 
-.content{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        background-color: #489F78;
-        height: 150vh;
-    }
-   
-.nav2{
-        display: flex;
-        padding: 8px;
-        font-size: 1.5rem;
-        position: absolute;
-        top: 50%;
-}
-    
-.desk{
-    width: 60vh;
-    text-align: center;
-    font-size: 1.2rem;
-}
+        .nav a {
+            text-decoration: none;
+            color: black;
+        }
 
-.nav{
-    display: flex;
-    padding: 8px;
-    font-size: 1.5rem;
-    position: absolute;
-    top: 0;
-    color: white;
-    justify-content: space-evenly;
-    left: 0;
-    width: 100%;
-}
+        .nama {
+            font-size: 2rem;
+            color: #2B69DB;
+            font-family: Arial, Helvetica, sans-serif;
+        }
 
-.nav2 a{
-    text-decoration: none;
-    color: black;
-}
+        .content1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+            margin-bottom: 20px;
+        }
 
-.nav a{
-    text-decoration: none;
-    color: black;
-}
+        .content1 div {
+            width: 40vh;
+            text-align: justify;
+            font-size: 1.3rem;
+            color: white;
+        }
 
-.nama{
-    font-size: 2rem;
-    color: #2B69DB;
-    font-family:Arial, Helvetica, sans-serif;
-}
+        .content1 img {
+            border-radius: 8px;
+        }
 
-.content1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-}
+        .headContent {
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            padding-top: 30px;
+        }
 
-.content1 div{
-    width: 40vh;
-    text-align: justify;
-    font-size: 1.3rem;
-    color: white;
-}
+        .vid {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: white;
+        }
 
-.content1 img{
-    border-radius: 8px;
-}
+        .btn {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            background-color: orange;
+            width: 15vh;
+            height: 4vh;
+            border-radius: 8px;
+        }
 
-@media screen and (max-width:765px) {
-    .content{
-        height: 150vh;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        background-color: #489F78;
-        height: 220vh;
+        .btn a {
+            text-decoration: none;
+            color: white;
+        }
 
-    }
-    .content1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding-top: 10vh;
-}
-.headContent{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding-top: 30px;
-}
+        @media screen and (max-width: 765px) {
+            .content {
+                height: auto;
+            }
 
-}
+            .content1 {
+                flex-direction: column;
+                padding-top: 10vh;
+            }
 
-.headContent{
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-    padding-top: 30px;
-}
-
-.vid{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: white;
-}
-
-.btn{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    background-color: orange;
-    width:15vh ;
-    height: 4vh;
-    border-radius: 8px;
-}
-
-.btn a{
-    text-decoration: none;
-    color: white;
-}
+            .headContent {
+                gap: 20px;
+                padding-top: 30px;
+            }
+        }
     </style>
 </head>
 <body>
     <div class="main">
-        
         <div class="content">
             <div class="cl1">
                 <div class="nav">
                     <div><a href="index.html">MyAgroEkoTeknologi</a></div>
-                    <div><a href="materi.html">Materi</a> </div>
+                    <div><a href="materi.html">Materi</a></div>
                 </div>
                 <div class="headContent">
-
                     <div class="content1">
                         <img src="./gambar 1.jpg" alt="" width="350vh">
                         <div>Agroekoteknologi adalah ilmu yang mempelajari teknologi pertanian yang berwawasan lingkungan. Ini mencakup pengelolaan lahan, tanaman, dan sumber daya alam dengan tujuan meningkatkan produktivitas pertanian secara berkelanjutan. Agroekoteknologi menggabungkan prinsip-prinsip ekologi dan teknologi untuk menciptakan sistem pertanian yang efisien, ramah lingkungan, dan ekonomis.</div>
@@ -190,13 +153,11 @@
                             <iframe style="width: 40vh; height: 20vh; border-radius: 8px;" src="https://www.youtube.com/embed/hUdJKRR-lZ8?si=bVlqSguf1m3oLS6K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         </div>
                         <div>
-                            <div class="btn"><a href="cengkeh.pptx" download="cengkeh.pptx">Download </a> </div>
+                            <div class="btn"><a href="cengkeh.pptx" download="cengkeh.pptx">Download </a></div>
                         </div>
                     </div>
                 </div>
-                
             </div>
-            
         </div>
     </div>
 </body>
